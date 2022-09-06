@@ -1,9 +1,15 @@
 import './App.css';
+import NavRect from './components/NavRect';
+import BackLocate from './components/BackLocate';
+import StoreList from './components/StoreList';
+
 
 function App() {
-  return (
+  return (     
     <div className="App">
-      <h1>Hello World</h1>
+    <NavRect />
+    <StoreList />
+    <BackLocate />
     </div>
   );
 }
